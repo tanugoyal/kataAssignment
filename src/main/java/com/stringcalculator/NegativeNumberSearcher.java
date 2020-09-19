@@ -5,6 +5,8 @@ import com.exception.CustomisedException;
 import java.util.ArrayList;
 import java.util.List;
 
+/*
+ * Searches the negative number if negative num are present then throws customised exception*/
 class NegativeNumberSearcher implements ForbiddenNumbers {
 
     public void validate(List<Integer> numbers) throws CustomisedException {

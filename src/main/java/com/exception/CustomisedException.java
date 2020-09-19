@@ -1,7 +1,9 @@
 package com.exception;
 
 import java.util.List;
-
+/*
+ * Custom Exception created to be thrown when the application is used with negative numbers.
+ * */
 public class CustomisedException extends Exception {
 
     private static final String EXCEPTION_NAME = "Negative numbers are not supported";
